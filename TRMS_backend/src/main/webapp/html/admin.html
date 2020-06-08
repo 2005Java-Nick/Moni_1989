@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link
+	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<script
+	src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script
+	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="/TRMS_backend/styles/admin.css">
+<title>Administration</title>
+</head>
+<body>
+<body>
+<div class="note">
+				<h2>Reimbursement Form Approval System</h2>
+			</div>
+	<form action="/TRMS_backend/admin" method="post">
+		<div class="container register-form">
+			
+
+			<div class="form-content">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="form-group">
+							<label> Enter Request ID: </label> <input type="text"
+								class="form-control" placeholder="RID*" name="rid" />
+						</div>
+						<label>Enter Reason for Approval/Denial</label><br>
+						<textarea class="form-content" cols="65" rows="5"
+							placeholder="Reason*" value="description" name="description">  
+							</textarea>
+						<input type="submit" class="btnAccept" value="Accepted"> <input
+							type="submit" class="btnDeny" value="Denied">
+					</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link
+	href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+	rel="stylesheet" id="bootstrap-css">
+<script
+	src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script
+	src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="newform.css">
+<title>Reimbersement Form</title>
+</head>
+
+<body>
+	<form action="/TRMS_backend/reimburseservlet" method="post">
+			<div class="container register-form">
+				<div class="form-content">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<div class="note">
+									<h2>Reimbersement Form</h2>
+								</div>
+
+								<label> Course Category : </label> <select name="category">
+									<option value="Choose">Choose</option>
+									<option value="University Course">University Course</option>
+									<option value="Seminar">Seminar</option>
+									<option value="Certification Preparation">Certification
+										Preparation</option>
+									<option value="Certification">Certification</option>
+									<option value="Technical Training">Technical Training</option>
+									<option value="Others">Others</option>
+								</select> <br> <br> <br> <label> Course Start Date
+								</label> <input type="text" name="start" placeholder="MM/DD/YYY" /> <br>
+								<br> <label> Submission Date </label> <input type="text"
+									name="submission" placeholder="MM/DD/YYY" /> <br> <br>
+								Course Amount: <input type="number" name="amount" /> <br>
+								<br> <label>Course Description: </label>
+							</div>
+							<br>
+							<textarea cols="80" rows="5" value="description"
+								name="description">  
+</textarea>
+							<br> <br> <label> Grading Format : </label> <select
+								name="grade">
+								<option value="Choose">Choose</option>
+								<option value="100-90">100%-90%</option>
+								<option value="89-80">89%-80%</option>
+								<option value="79-70">79%-70%</option>
+								<option value="69-60">69%-60%</option>
+								<option value="Fail/Pass">Fail/Pass</option>
+								<option value="Others">Others</option>
+							</select> <br> <br> <input type="submit" value="Submit"
+								class="button" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+</body>
+</html>

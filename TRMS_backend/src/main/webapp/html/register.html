@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="/TRMS_backend/styles/register.css">
+
+<title>Register Employee</title>
+</head>
+<body>
+<form action="/TRMS_backend/registerservlet" method="post">
+<div class="container register-form">
+            <div class="form">
+                <div class="note">
+                    <p><img src="resources/revature.png">Employee Registration</p>
+                </div>
+
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input type="text" class="form-control"  placeholder="First Name *" name="firstName"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Last Name *" name="lastName"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Email ID *" name="emailId"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Contact Number *" name="contactNo"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="City *" name="city"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="State *" name="state"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Title *" name="empTitle"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Hire Date *" name="hireDate"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Reports To *" name="reportsTo"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Username *" name="uname"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Password *" name="psw"/>
+                            </div>
+                        </div>                        
+                  </div>
+            </div>
+           <input type="submit" class="btnSubmit" value="register">
+       <!--   <button type="button" class="btnSubmit">Submit</button>-->
+           
+             </div>
+        </div>
+        </form>
+        <div class="footer">
+            <footer>
+        <p align="center"><b>Revature LLC All Rights Reserved</p></br>
+         </footer>
+    </div>
+</body>
+</html>
+   

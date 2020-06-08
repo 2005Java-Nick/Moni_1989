@@ -1,0 +1,46 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("/TRMS_backend/resources/welcome.png") opacity:0.6;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.note
+{
+    text-align: center;
+    padding: 30px;
+    height: 80px;
+    background: -webkit-linear-gradient(left, #0072ff, #8811c5);
+    color: black;
+    font-weight: bold;
+    line-height: 80px;
+}
+.form-content
+{
+    padding: 5%;
+    border: 1px solid #ced4da;
+    margin-bottom: 2%;
+}
+.form-control{
+    border-radius:1.5rem;
+}
+.btnAccept
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 30%;
+    cursor: pointer;
+    background: green;
+    color: white;
+}
+.btnDeny
+{
+    border:none;
+    border-radius:1.5rem;
+    padding: 1%;
+    width: 30%;
+    cursor: pointer;
+    background:red;
+    color: white;
+}

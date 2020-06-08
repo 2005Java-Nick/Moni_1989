@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("/TRMS_backend/resources/welcome.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+height: 100%;
+align-content: right;
+} 
+.input-group-prepend span{
+width: 50px;
+background-color: #FFC312;
+color: black;
+border:0 !important;
+}
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+}
+.footer{
+	text-align: right;
+  	text-transform: uppercase;
+	color:white;
+	padding:20px;
+	margin:20px;
+}

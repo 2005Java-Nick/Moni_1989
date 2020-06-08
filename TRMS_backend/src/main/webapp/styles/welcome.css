@@ -1,0 +1,11 @@
+@charset "ISO-8859-1";
+body{
+	background-image: url("/TRMS_backend/resources/welcome.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#welcome{
+	color:white;
+	text-align:centre;
+	text-transform: uppercase;
+}
